@@ -26,8 +26,16 @@
 	
 	
     
-	self.navigationItem.title = @"Free and Subscription Videos";
+	//self.navigationItem.title = @"Free and Subscription Videos";
     
+    self.tableView.backgroundView = nil;
+    NSString *BackImagePath = [[NSBundle mainBundle] pathForResource:@"back320x450" ofType:@"png"];
+	UIImage *BackImage = [[UIImage alloc] initWithContentsOfFile:BackImagePath];
+    self.tableView.backgroundColor = [UIColor colorWithPatternImage:BackImage];
+    
+    
+    
+
     // Listen to notification
     NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
     [nc addObserver:self selector:@selector(RefreshTable:) name:@"ToFreeVideoClass" object:nil];
@@ -516,11 +524,22 @@
     
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-	return YES;
+// For ios 6
+-(NSUInteger)supportedInterfaceOrientations{
+    
+    
+    return UIInterfaceOrientationMaskPortrait;
+    
+    
 }
+
+// for ios 5
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    
+    return  (interfaceOrientation == UIInterfaceOrientationPortrait);
+	
+}
+
 
 
 -(IBAction)ReportProblem:(id)sender{
