@@ -871,7 +871,7 @@
 		7C5E8A4C15FA159100E4DBAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph caxton (99S98QLWW3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhysicsVideoStreameriPhone/PhysicsVideoStreameriPhone-Prefix.pch";
 				INFOPLIST_FILE = "PhysicsVideoStreameriPhone/PhysicsVideoStreameriPhone-Info.plist";
@@ -881,7 +881,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = GCSE;
-				PROVISIONING_PROFILE = "2AC1CD2C-0D1B-4187-8901-C4BAC8ABED5E";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
