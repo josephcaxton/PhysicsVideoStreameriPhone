@@ -938,7 +938,7 @@
 		7C5E8A4D15FA159100E4DBAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhysicsVideoStreameriPhone/PhysicsVideoStreameriPhone-Prefix.pch";
 				INFOPLIST_FILE = "PhysicsVideoStreameriPhone/PhysicsVideoStreameriPhone-Info.plist";
@@ -948,7 +948,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = GCSE;
-				PROVISIONING_PROFILE = "CC11C198-CEF0-446D-B309-DFA953ADA5C9";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};

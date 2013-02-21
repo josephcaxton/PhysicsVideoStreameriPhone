@@ -503,7 +503,7 @@
     NSString* OneMonth = [ProductID stringByAppendingString:@"1month"];
     [ProductIDs addObject:OneMonth];
     
-    NSString* ThreeMonths = [ProductID stringByAppendingString:@"months"];// Note i mistakenly did not add 3 to this string at apple.
+    NSString* ThreeMonths = [ProductID stringByAppendingString:@"3months"];
     [ProductIDs addObject:ThreeMonths];
     
     NSString* SixMonths = [ProductID stringByAppendingString:@"6months"];

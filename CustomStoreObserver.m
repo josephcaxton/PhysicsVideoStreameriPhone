@@ -178,7 +178,7 @@
         
     }
     
-    else if ([[theProductID lowercaseString] isEqualToString:@"physicsiphonemonths"] ){ // Type at apple I did not add 3 to the string
+    else if ([[theProductID lowercaseString] isEqualToString:@"physicsiphone3months"] ){ // Type at apple I did not add 3 to the string
         
         return @"93";
         
