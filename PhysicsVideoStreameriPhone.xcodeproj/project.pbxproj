@@ -113,6 +113,7 @@
 		7C5E8B7A15FA1C1D00E4DBAC /* 69.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E8B3215FA1C1D00E4DBAC /* 69.png */; };
 		7C5E8B7B15FA1C1D00E4DBAC /* 70.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E8B3315FA1C1D00E4DBAC /* 70.png */; };
 		7C5E8B8215FA216300E4DBAC /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5E8A6215FA15F800E4DBAC /* libGoogleAnalytics.a */; };
+		7C6BE4BF16E791DF00122F68 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BE4BE16E7900500122F68 /* ListCell.m */; };
 		7C8F819A165E7396004511A6 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F8198165E7396004511A6 /* Icon-72.png */; };
 		7C8F819B165E7396004511A6 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F8199165E7396004511A6 /* Icon-Small-50.png */; };
 		7C8F819E165E73A9004511A6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F819C165E73A9004511A6 /* Icon.png */; };
@@ -299,6 +300,8 @@
 		7C5E8B3115FA1C1D00E4DBAC /* 68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 68.png; sourceTree = "<group>"; };
 		7C5E8B3215FA1C1D00E4DBAC /* 69.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 69.png; sourceTree = "<group>"; };
 		7C5E8B3315FA1C1D00E4DBAC /* 70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 70.png; sourceTree = "<group>"; };
+		7C6BE4BD16E7900500122F68 /* ListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		7C6BE4BE16E7900500122F68 /* ListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
 		7C8F8198165E7396004511A6 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		7C8F8199165E7396004511A6 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		7C8F819C165E73A9004511A6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -372,6 +375,7 @@
 		7C5E8A1415FA158F00E4DBAC = {
 			isa = PBXGroup;
 			children = (
+				7C6BE4BC16E78FF400122F68 /* Table Cells */,
 				7CD6D98916974405004BCB15 /* Files */,
 				7C5E8A4E15FA15DD00E4DBAC /* facebook-ios-sdk */,
 				7C5E8A6015FA15EA00E4DBAC /* Analytics */,
@@ -644,6 +648,15 @@
 			name = Icons;
 			sourceTree = "<group>";
 		};
+		7C6BE4BC16E78FF400122F68 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7C6BE4BD16E7900500122F68 /* ListCell.h */,
+				7C6BE4BE16E7900500122F68 /* ListCell.m */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
 		7CD6D98916974405004BCB15 /* Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -832,6 +845,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C6BE4BF16E791DF00122F68 /* ListCell.m in Sources */,
 				7CD6D99D16974489004BCB15 /* Coverage.m in Sources */,
 				7CD6D99E16974489004BCB15 /* CoverageViewer.m in Sources */,
 				7CAE9EE51626CD1F00474CD2 /* UnderlinedButton.m in Sources */,
