@@ -600,10 +600,10 @@ static NSString* const kAnalyticsAccountId = @"UA-34413575-1";
     [[NSUserDefaults standardUserDefaults] synchronize];
     [[GANTracker sharedTracker] stopTracker];
     
-    AccessAll = FALSE;
+   /* AccessAll = FALSE;
     if (UserEmail) {
         UserEmail = nil;
-    }
+    }*/
 
 }
 

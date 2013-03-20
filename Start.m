@@ -404,12 +404,12 @@
         
         // This is requesting access via Silverlight credentials
         
-        NSString *AppID = @"3";   // 1 is English , 2 means this is maths,  3 is physics, 4 is Physics 
-        NSString *queryString = [NSString stringWithFormat:@"%@/Services/iOS/VideoSubscription.asmx/FindSLSubscription",domain];
+        NSString *AppID = @"63";   // 58 is English , 62 means this is maths,  63 is physics
+        NSString *queryString = [NSString stringWithFormat:@"%@/Services/iOS/VideoSubscription.asmx/FindSLSubscription2",domain];
         NSURL *url = [NSURL URLWithString:queryString];
         NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:url];
         
-        NSString *FullString = [NSString stringWithFormat:@"AppID=%@&SLemail=%@&SLpassword=%@&",AppID,UsernameText.text,PasswordText.text];
+         NSString *FullString = [NSString stringWithFormat:@"DeviceID=%@&CourseID=%@&SLemail=%@&SLpassword=%@&",DeviceID,AppID,UsernameText.text,PasswordText.text];
         NSData* data=[FullString dataUsingEncoding:NSUTF8StringEncoding];
 
         NSString *contentType = @"application/x-www-form-urlencoded; charset=utf-8";
@@ -555,7 +555,7 @@
 
               AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
               appDelegate.AccessAll = TRUE;
-              appDelegate.UserEmail = @"JustAGeneralEmail@thisapp.com";
+              appDelegate.UserEmail = UsernameText.text;
               LoginTitle = @"Logout";
               [LoginViaLearnersCloud setTarget:self];
               [LoginViaLearnersCloud setAction:@selector(LogoutUser:)];

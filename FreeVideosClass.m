@@ -311,7 +311,7 @@
             obj.Free = NO; 
         }
         obj.Subject = Subject;
-        obj.M3u8 = M3u8;
+        obj.M3u8 = [M3u8 stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
         
         if ([Sociallyfree isEqualToString: @"1"]){
             
