@@ -138,7 +138,7 @@
         self.navigationItem.rightBarButtonItem = LoginViaLearnersCloud;
     }
     
-    else if([appDelegate.UserEmail isEqualToString:@"JustAGeneralEmail@thisapp.com"]){
+    else {
         
         LoginTitle =@"Logout";
         
@@ -148,18 +148,7 @@
         self.navigationItem.rightBarButtonItem = LoginViaLearnersCloud;
         
     }
-    
-    else {
         
-        LoginTitle =@"Login";
-        
-        [LoginViaLearnersCloud setTarget:self];
-        [LoginViaLearnersCloud setAction:@selector(TransferSubscription:)];
-        LoginViaLearnersCloud.title = @"Login";
-        self.navigationItem.rightBarButtonItem = LoginViaLearnersCloud;
-    }
-    
-    
     
     
 }
