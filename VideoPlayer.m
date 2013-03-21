@@ -218,8 +218,8 @@
     NSURL *url = [NSURL URLWithString:queryString];
     NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:url];
     
-    NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
-    NSString *deviceID = [prefs stringForKey:@"LCUIID"];
+    //NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+    //NSString *deviceID = [prefs stringForKey:@"LCUIID"];
     
     NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat: @"yyyy-MM-dd HH:mm:ss zzz"];
