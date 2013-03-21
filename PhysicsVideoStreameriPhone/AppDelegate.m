@@ -476,11 +476,11 @@ static NSString* const kAnalyticsAccountId = @"UA-34413575-1";
 //Return True is file does not exist in device -- so download from server;
 // Return True if the file exist but version is defferent--- So we need to download the file;
 // Return false if the file is same version --- so don't download;
-- (BOOL)downloadFileIfUpdated:(NSString*)urlString:(NSString*)LocalFileLocation {  
+-(BOOL)downloadfileifUpdated:(NSString*)urLString location:(NSString*)LocalFileLocation; {
     
     //DLog(@"Downloading HTTP header from: %@", urlString);
     
-    NSURL *url = [NSURL URLWithString:urlString];  
+    NSURL *url = [NSURL URLWithString:urLString];
     
     NSString *cachedPath = LocalFileLocation;
     NSFileManager *fileManager = [NSFileManager defaultManager];  

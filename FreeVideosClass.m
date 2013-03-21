@@ -225,10 +225,11 @@
 }
 
 
--(BOOL)ShouldIDownloadOrNot:(NSString*)urllPath:(NSString*)LocalFileLocation{
+-(BOOL)ShouldIDownloadOrNot:(NSString*)urllPath :(NSString*)LocalFileLocation{
     
     AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-   BOOL ReturnVal =  [appDelegate downloadFileIfUpdated:urllPath:LocalFileLocation];
+   BOOL ReturnVal =  [appDelegate downloadfileifUpdated:urllPath location:LocalFileLocation];
+    
     
     return ReturnVal;
    
