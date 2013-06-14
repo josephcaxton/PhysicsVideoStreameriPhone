@@ -558,6 +558,9 @@
     
     ProductIDs = [[NSMutableArray alloc] init];
     
+    NSString* OneWeek = [ProductID stringByAppendingString:@"1week"];
+    [ProductIDs addObject:OneWeek];
+    
     NSString* OneMonth = [ProductID stringByAppendingString:@"1month"];
     [ProductIDs addObject:OneMonth];
     
