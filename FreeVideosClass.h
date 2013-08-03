@@ -19,6 +19,10 @@
     NSMutableArray *ProductsSubscibedTo;
     BOOL FullSubscription;
     UISearchBar  *mySearchBar;
+    NSMutableArray* buttons;
+    UIBarButtonItem *LoginViaLearnersCloud;
+    NSMutableArray *FreeSamples;
+    NSMutableArray *FreeSamples_Copy;
     
     
 }
@@ -30,6 +34,10 @@
 @property (nonatomic, retain)  NSMutableArray *ProductsSubscibedTo;
 @property (nonatomic, assign) BOOL FullSubscription;
 @property (nonatomic, retain) UISearchBar *mySearchBar;
+@property (nonatomic, retain) NSMutableArray* buttons;
+@property (nonatomic, retain) UIBarButtonItem *LoginViaLearnersCloud;
+@property (nonatomic, retain)  NSMutableArray *FreeSamples;
+@property (nonatomic, retain)  NSMutableArray *FreeSamples_Copy;
 
 
 

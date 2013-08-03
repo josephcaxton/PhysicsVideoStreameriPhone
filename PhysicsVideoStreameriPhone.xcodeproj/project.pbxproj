@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C239E5217AD1C0800794B2C /* TransparentToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C239E5117AD1BF000794B2C /* TransparentToolBar.m */; };
 		7C5E8A2415FA159000E4DBAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5E8A2315FA159000E4DBAC /* UIKit.framework */; };
 		7C5E8A2615FA159000E4DBAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5E8A2515FA159000E4DBAC /* Foundation.framework */; };
 		7C5E8A2815FA159000E4DBAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5E8A2715FA159000E4DBAC /* CoreGraphics.framework */; };
@@ -112,7 +113,6 @@
 		7C5E8B7B15FA1C1D00E4DBAC /* 70.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E8B3315FA1C1D00E4DBAC /* 70.png */; };
 		7C5E8B8215FA216300E4DBAC /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5E8A6215FA15F800E4DBAC /* libGoogleAnalytics.a */; };
 		7C6BE4BF16E791DF00122F68 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BE4BE16E7900500122F68 /* ListCell.m */; };
-		7C87DEA7173532BA00D5C5AB /* subscribe.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C87DEA6173532BA00D5C5AB /* subscribe.png */; };
 		7C87DEA9173532F800D5C5AB /* 70-tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C87DEA8173532F800D5C5AB /* 70-tv.png */; };
 		7C87DEAD173533C200D5C5AB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C87DEAC173533C200D5C5AB /* MainWindow.xib */; };
 		7C87DEB01735341500D5C5AB /* LearnersCloudSamplesVideos.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C87DEAB1735339C00D5C5AB /* LearnersCloudSamplesVideos.m */; };
@@ -145,9 +145,6 @@
 		7CAE9ED01626CC3700474CD2 /* icon_share_on_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9EC61626CC3700474CD2 /* icon_share_on_facebook.png */; };
 		7CAE9ED11626CC3700474CD2 /* icon_share_on_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9EC71626CC3700474CD2 /* icon_share_on_twitter.png */; };
 		7CAE9ED31626CC4500474CD2 /* share_intro.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9ED21626CC4500474CD2 /* share_intro.png */; };
-		7CAE9EE01626CCE300474CD2 /* buy_now.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9EDD1626CCE300474CD2 /* buy_now.png */; };
-		7CAE9EE11626CCE300474CD2 /* btn_videos_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9EDE1626CCE300474CD2 /* btn_videos_deselected.png */; };
-		7CAE9EE21626CCE300474CD2 /* btn_share_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9EDF1626CCE300474CD2 /* btn_share_deselected.png */; };
 		7CAE9EE51626CD1F00474CD2 /* UnderlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAE9EE41626CD0200474CD2 /* UnderlinedButton.m */; };
 		7CAE9EEE1626D6DC00474CD2 /* hero_physics.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9EEA1626D6DB00474CD2 /* hero_physics.png */; };
 		7CAE9EEF1626D6DC00474CD2 /* hero_physics@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9EEB1626D6DB00474CD2 /* hero_physics@2x.png */; };
@@ -156,19 +153,30 @@
 		7CAE9EF41626DCF100474CD2 /* LearnersCloudTermsonapps.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CAE9EF31626DCF100474CD2 /* LearnersCloudTermsonapps.pdf */; };
 		7CC2640316FA1A7800868246 /* website_promo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2640116FA1A7800868246 /* website_promo.png */; };
 		7CC2640416FA1A7800868246 /* website_promo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC2640216FA1A7800868246 /* website_promo@2x.png */; };
+		7CCE6EB217A1628E00526092 /* btn_share_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EAA17A1628E00526092 /* btn_share_deselected.png */; };
+		7CCE6EB317A1628E00526092 /* btn_share_deselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EAB17A1628E00526092 /* btn_share_deselected@2x.png */; };
+		7CCE6EB417A1628E00526092 /* buy_now.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EAC17A1628E00526092 /* buy_now.png */; };
+		7CCE6EB517A1628E00526092 /* buy_now@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EAD17A1628E00526092 /* buy_now@2x.png */; };
+		7CCE6EB617A1628E00526092 /* btn_videos_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EAE17A1628E00526092 /* btn_videos_deselected.png */; };
+		7CCE6EB717A1628E00526092 /* btn_videos_deselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EAF17A1628E00526092 /* btn_videos_deselected@2x.png */; };
+		7CCE6EB817A1628E00526092 /* nav_btn_coverage_deselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EB017A1628E00526092 /* nav_btn_coverage_deselected@2x.png */; };
+		7CCE6EB917A1628E00526092 /* nav_btn_coverage_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6EB117A1628E00526092 /* nav_btn_coverage_deselected.png */; };
+		7CCE6ECC17A164D000526092 /* subscribe.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6ECA17A164D000526092 /* subscribe.png */; };
+		7CCE6ECD17A164D000526092 /* subscribe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE6ECB17A164D000526092 /* subscribe@2x.png */; };
 		7CD6D99116974416004BCB15 /* GCSE-Physics-WJEC-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D98B16974416004BCB15 /* GCSE-Physics-WJEC-Examination-Coverage.pdf */; };
 		7CD6D99216974416004BCB15 /* GCSE-Physics-OCR-Gateway-B-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D98C16974416004BCB15 /* GCSE-Physics-OCR-Gateway-B-Examination-Coverage.pdf */; };
 		7CD6D99316974416004BCB15 /* GCSE-Physics-OCR-21st-Century-A-Examination Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D98D16974416004BCB15 /* GCSE-Physics-OCR-21st-Century-A-Examination Coverage.pdf */; };
 		7CD6D99416974416004BCB15 /* GCSE-Physics-Edexcel-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D98E16974416004BCB15 /* GCSE-Physics-Edexcel-Examination-Coverage.pdf */; };
 		7CD6D99516974416004BCB15 /* GCSE-Physics-CCEA-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D98F16974416004BCB15 /* GCSE-Physics-CCEA-Examination-Coverage.pdf */; };
 		7CD6D99616974416004BCB15 /* GCSE-Physics-AQA-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D99016974416004BCB15 /* GCSE-Physics-AQA-Examination-Coverage.pdf */; };
-		7CD6D99C16974468004BCB15 /* nav_btn_coverage_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D99B16974468004BCB15 /* nav_btn_coverage_deselected.png */; };
 		7CD6D99D16974489004BCB15 /* Coverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D9981697442C004BCB15 /* Coverage.m */; };
 		7CD6D99E16974489004BCB15 /* CoverageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D99A1697442C004BCB15 /* CoverageViewer.m */; };
 		7CF86CD016FB0E3000D3452B /* HowtouseVideoStreamer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CF86CCF16FB0E3000D3452B /* HowtouseVideoStreamer.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C239E5017AD1BF000794B2C /* TransparentToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransparentToolBar.h; sourceTree = "<group>"; };
+		7C239E5117AD1BF000794B2C /* TransparentToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransparentToolBar.m; sourceTree = "<group>"; };
 		7C5E8A1F15FA159000E4DBAC /* GCSE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCSE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5E8A2315FA159000E4DBAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7C5E8A2515FA159000E4DBAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -309,7 +317,6 @@
 		7C5E8B3315FA1C1D00E4DBAC /* 70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 70.png; sourceTree = "<group>"; };
 		7C6BE4BD16E7900500122F68 /* ListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
 		7C6BE4BE16E7900500122F68 /* ListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
-		7C87DEA6173532BA00D5C5AB /* subscribe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subscribe.png; sourceTree = "<group>"; };
 		7C87DEA8173532F800D5C5AB /* 70-tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "70-tv.png"; sourceTree = "<group>"; };
 		7C87DEAA1735339C00D5C5AB /* LearnersCloudSamplesVideos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnersCloudSamplesVideos.h; sourceTree = "<group>"; };
 		7C87DEAB1735339C00D5C5AB /* LearnersCloudSamplesVideos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnersCloudSamplesVideos.m; sourceTree = "<group>"; };
@@ -344,9 +351,6 @@
 		7CAE9EC61626CC3700474CD2 /* icon_share_on_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_share_on_facebook.png; sourceTree = "<group>"; };
 		7CAE9EC71626CC3700474CD2 /* icon_share_on_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_share_on_twitter.png; sourceTree = "<group>"; };
 		7CAE9ED21626CC4500474CD2 /* share_intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_intro.png; sourceTree = "<group>"; };
-		7CAE9EDD1626CCE300474CD2 /* buy_now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy_now.png; sourceTree = "<group>"; };
-		7CAE9EDE1626CCE300474CD2 /* btn_videos_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_videos_deselected.png; sourceTree = "<group>"; };
-		7CAE9EDF1626CCE300474CD2 /* btn_share_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_share_deselected.png; sourceTree = "<group>"; };
 		7CAE9EE31626CD0200474CD2 /* UnderlinedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnderlinedButton.h; sourceTree = "<group>"; };
 		7CAE9EE41626CD0200474CD2 /* UnderlinedButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnderlinedButton.m; sourceTree = "<group>"; };
 		7CAE9EEA1626D6DB00474CD2 /* hero_physics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero_physics.png; sourceTree = "<group>"; };
@@ -356,6 +360,16 @@
 		7CAE9EF31626DCF100474CD2 /* LearnersCloudTermsonapps.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LearnersCloudTermsonapps.pdf; sourceTree = "<group>"; };
 		7CC2640116FA1A7800868246 /* website_promo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = website_promo.png; sourceTree = "<group>"; };
 		7CC2640216FA1A7800868246 /* website_promo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "website_promo@2x.png"; sourceTree = "<group>"; };
+		7CCE6EAA17A1628E00526092 /* btn_share_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_share_deselected.png; sourceTree = "<group>"; };
+		7CCE6EAB17A1628E00526092 /* btn_share_deselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_share_deselected@2x.png"; sourceTree = "<group>"; };
+		7CCE6EAC17A1628E00526092 /* buy_now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy_now.png; sourceTree = "<group>"; };
+		7CCE6EAD17A1628E00526092 /* buy_now@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy_now@2x.png"; sourceTree = "<group>"; };
+		7CCE6EAE17A1628E00526092 /* btn_videos_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_videos_deselected.png; sourceTree = "<group>"; };
+		7CCE6EAF17A1628E00526092 /* btn_videos_deselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_videos_deselected@2x.png"; sourceTree = "<group>"; };
+		7CCE6EB017A1628E00526092 /* nav_btn_coverage_deselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_btn_coverage_deselected@2x.png"; sourceTree = "<group>"; };
+		7CCE6EB117A1628E00526092 /* nav_btn_coverage_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_btn_coverage_deselected.png; sourceTree = "<group>"; };
+		7CCE6ECA17A164D000526092 /* subscribe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subscribe.png; sourceTree = "<group>"; };
+		7CCE6ECB17A164D000526092 /* subscribe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subscribe@2x.png"; sourceTree = "<group>"; };
 		7CD6D98B16974416004BCB15 /* GCSE-Physics-WJEC-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Physics-WJEC-Examination-Coverage.pdf"; sourceTree = "<group>"; };
 		7CD6D98C16974416004BCB15 /* GCSE-Physics-OCR-Gateway-B-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Physics-OCR-Gateway-B-Examination-Coverage.pdf"; sourceTree = "<group>"; };
 		7CD6D98D16974416004BCB15 /* GCSE-Physics-OCR-21st-Century-A-Examination Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Physics-OCR-21st-Century-A-Examination Coverage.pdf"; sourceTree = "<group>"; };
@@ -366,7 +380,6 @@
 		7CD6D9981697442C004BCB15 /* Coverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coverage.m; sourceTree = "<group>"; };
 		7CD6D9991697442C004BCB15 /* CoverageViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoverageViewer.h; sourceTree = "<group>"; };
 		7CD6D99A1697442C004BCB15 /* CoverageViewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverageViewer.m; sourceTree = "<group>"; };
-		7CD6D99B16974468004BCB15 /* nav_btn_coverage_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_btn_coverage_deselected.png; sourceTree = "<group>"; };
 		7CF86CCF16FB0E3000D3452B /* HowtouseVideoStreamer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HowtouseVideoStreamer.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -453,6 +466,8 @@
 				7CAE9EE41626CD0200474CD2 /* UnderlinedButton.m */,
 				7C5E8AB115FA179500E4DBAC /* ActivityIndicator.h */,
 				7C5E8AB215FA179500E4DBAC /* ActivityIndicator.m */,
+				7C239E5017AD1BF000794B2C /* TransparentToolBar.h */,
+				7C239E5117AD1BF000794B2C /* TransparentToolBar.m */,
 				7C5E8A2B15FA159000E4DBAC /* PhysicsVideoStreameriPhone-Info.plist */,
 				7C5E8A2C15FA159000E4DBAC /* InfoPlist.strings */,
 				7C5E8A2F15FA159000E4DBAC /* main.m */,
@@ -629,6 +644,8 @@
 		7C5E8A8315FA169A00E4DBAC /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				7CCE6ECA17A164D000526092 /* subscribe.png */,
+				7CCE6ECB17A164D000526092 /* subscribe@2x.png */,
 				7CAE9EAE1626CC1200474CD2 /* free_and_paid_apps.png */,
 				7CAE9EAF1626CC1200474CD2 /* free_and_paid_apps@2x.png */,
 				7CAE9EB01626CC1200474CD2 /* back320x450.png */,
@@ -636,7 +653,6 @@
 				7CAE9EB21626CC1200474CD2 /* Default-568h@2x.png */,
 				7CAE9EB31626CC1200474CD2 /* Default.png */,
 				7CAE9EB41626CC1200474CD2 /* Default@2x.png */,
-				7C87DEA6173532BA00D5C5AB /* subscribe.png */,
 				7CAE9EBC1626CC2000474CD2 /* header_bar.png */,
 				7CAE9EBE1626CC3700474CD2 /* web_promo_btn.png */,
 				7CAE9EBF1626CC3700474CD2 /* divider_notifications.png */,
@@ -671,10 +687,14 @@
 		7C5E8A9815FA170D00E4DBAC /* Icons */ = {
 			isa = PBXGroup;
 			children = (
-				7CD6D99B16974468004BCB15 /* nav_btn_coverage_deselected.png */,
-				7CAE9EDD1626CCE300474CD2 /* buy_now.png */,
-				7CAE9EDE1626CCE300474CD2 /* btn_videos_deselected.png */,
-				7CAE9EDF1626CCE300474CD2 /* btn_share_deselected.png */,
+				7CCE6EAA17A1628E00526092 /* btn_share_deselected.png */,
+				7CCE6EAB17A1628E00526092 /* btn_share_deselected@2x.png */,
+				7CCE6EAC17A1628E00526092 /* buy_now.png */,
+				7CCE6EAD17A1628E00526092 /* buy_now@2x.png */,
+				7CCE6EAE17A1628E00526092 /* btn_videos_deselected.png */,
+				7CCE6EAF17A1628E00526092 /* btn_videos_deselected@2x.png */,
+				7CCE6EB017A1628E00526092 /* nav_btn_coverage_deselected@2x.png */,
+				7CCE6EB117A1628E00526092 /* nav_btn_coverage_deselected.png */,
 				7C5E8A9E15FA172700E4DBAC /* 60-signpost.png */,
 				7C87DEA8173532F800D5C5AB /* 70-tv.png */,
 			);
@@ -845,9 +865,6 @@
 				7CAE9ED01626CC3700474CD2 /* icon_share_on_facebook.png in Resources */,
 				7CAE9ED11626CC3700474CD2 /* icon_share_on_twitter.png in Resources */,
 				7CAE9ED31626CC4500474CD2 /* share_intro.png in Resources */,
-				7CAE9EE01626CCE300474CD2 /* buy_now.png in Resources */,
-				7CAE9EE11626CCE300474CD2 /* btn_videos_deselected.png in Resources */,
-				7CAE9EE21626CCE300474CD2 /* btn_share_deselected.png in Resources */,
 				7CAE9EEE1626D6DC00474CD2 /* hero_physics.png in Resources */,
 				7CAE9EEF1626D6DC00474CD2 /* hero_physics@2x.png in Resources */,
 				7CAE9EF01626D6DC00474CD2 /* TV_physics_header.png in Resources */,
@@ -863,11 +880,9 @@
 				7CD6D99416974416004BCB15 /* GCSE-Physics-Edexcel-Examination-Coverage.pdf in Resources */,
 				7CD6D99516974416004BCB15 /* GCSE-Physics-CCEA-Examination-Coverage.pdf in Resources */,
 				7CD6D99616974416004BCB15 /* GCSE-Physics-AQA-Examination-Coverage.pdf in Resources */,
-				7CD6D99C16974468004BCB15 /* nav_btn_coverage_deselected.png in Resources */,
 				7CC2640316FA1A7800868246 /* website_promo.png in Resources */,
 				7CC2640416FA1A7800868246 /* website_promo@2x.png in Resources */,
 				7CF86CD016FB0E3000D3452B /* HowtouseVideoStreamer.pdf in Resources */,
-				7C87DEA7173532BA00D5C5AB /* subscribe.png in Resources */,
 				7C87DEA9173532F800D5C5AB /* 70-tv.png in Resources */,
 				7C87DEAD173533C200D5C5AB /* MainWindow.xib in Resources */,
 				7C87DEBA1735348B00D5C5AB /* Maths.png in Resources */,
@@ -876,6 +891,16 @@
 				7C87DEBD1735348B00D5C5AB /* Biology.png in Resources */,
 				7C87DEBE1735348B00D5C5AB /* Chemistry.png in Resources */,
 				7C87DEBF1735348B00D5C5AB /* Testimonial.png in Resources */,
+				7CCE6EB217A1628E00526092 /* btn_share_deselected.png in Resources */,
+				7CCE6EB317A1628E00526092 /* btn_share_deselected@2x.png in Resources */,
+				7CCE6EB417A1628E00526092 /* buy_now.png in Resources */,
+				7CCE6EB517A1628E00526092 /* buy_now@2x.png in Resources */,
+				7CCE6EB617A1628E00526092 /* btn_videos_deselected.png in Resources */,
+				7CCE6EB717A1628E00526092 /* btn_videos_deselected@2x.png in Resources */,
+				7CCE6EB817A1628E00526092 /* nav_btn_coverage_deselected@2x.png in Resources */,
+				7CCE6EB917A1628E00526092 /* nav_btn_coverage_deselected.png in Resources */,
+				7CCE6ECC17A164D000526092 /* subscribe.png in Resources */,
+				7CCE6ECD17A164D000526092 /* subscribe@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -886,6 +911,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C239E5217AD1C0800794B2C /* TransparentToolBar.m in Sources */,
 				7C87DEB01735341500D5C5AB /* LearnersCloudSamplesVideos.m in Sources */,
 				7C87DEB11735341500D5C5AB /* TrailerPlayer.m in Sources */,
 				7C6BE4BF16E791DF00122F68 /* ListCell.m in Sources */,
@@ -995,6 +1021,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhysicsVideoStreameriPhone/PhysicsVideoStreameriPhone-Prefix.pch";
 				INFOPLIST_FILE = "PhysicsVideoStreameriPhone/PhysicsVideoStreameriPhone-Info.plist";
@@ -1005,6 +1032,7 @@
 				);
 				PRODUCT_NAME = GCSE;
 				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
